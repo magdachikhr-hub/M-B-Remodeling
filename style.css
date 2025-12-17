@@ -11,10 +11,17 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 header {
   height: 100px;
   background-color: var(--header-color);
+  color: var(--text-color);
+  font-size: var(--font-size);
 }
 
 main {

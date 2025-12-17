@@ -1,4 +1,6 @@
 :root {
   --header-color: red;
   --main-color: green;
+  --text-color: white;
+  --font-size: 30px;
 }
