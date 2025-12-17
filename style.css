@@ -9,9 +9,50 @@ body {
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--poppins);
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
 }
 
 header {
   height: 141px;
   background-color: var(--primary-color);
+  justify-content: space-between;
+  padding: 0 80px 0 80px;
+
+  div.company {
+    display: flex;
+    gap: 20px;
+
+    .company_logo {
+      width: 36px;
+      height: 31px;
+      fill: var(--secondary-color);
+    }
+    p {
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: var(--basic-color);
+        font-weight: 300;
+      }
+      span {
+        font-weight: 300;
+        color: var(--basic-color);
+      }
+    }
+  }
 }
