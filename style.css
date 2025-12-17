@@ -49,6 +49,11 @@ header {
         color: var(--basic-color);
         font-weight: 300;
       }
+
+      a:hover {
+        color: var(--secondary-color);
+      }
+
       span {
         font-weight: 300;
         color: var(--basic-color);
