@@ -16,6 +16,11 @@ body {
   display: flex;
   align-items: center;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 header {
   height: 141px;
@@ -106,4 +111,50 @@ main {
     }
   }
   /* section second */
+  section.second {
+    display: flex;
+    margin: 60px 0 100px 0;
+    div.background_img {
+      width: 50%;
+      height: 680px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-image: url(https://static.wixstatic.com/media/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg/v1/fill/w_735,h_1020,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg);
+    }
+    div.short_info {
+      width: 50%;
+
+      div.wrapper {
+        width: 460px;
+
+        h2 {
+          font-size: 40px;
+          font-weight: 600;
+          color: var(--basic-color);
+        }
+        p {
+          font-size: var(--primary-font);
+          font-weight: 200;
+          color: var(--basic-color);
+          line-height: 25.5px;
+          margin: 30px 0 50px 0;
+        }
+        a {
+          background-color: var(--basic-color);
+          padding: 10px 31px;
+          font-size: 14px;
+          color: var(--primary-color);
+          font-weight: 200;
+          text-decoration: none;
+        }
+        a:hover {
+          background-color: var(--secondary-color);
+          transition-duration: 600ms;
+        }
+      }
+    }
+  }
+
+  /* section third */
 }
