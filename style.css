@@ -52,6 +52,7 @@ header {
 
       a:hover {
         color: var(--secondary-color);
+        transition-duration: 600ms;
       }
 
       span {
@@ -60,4 +61,49 @@ header {
       }
     }
   }
+}
+
+main {
+  padding: 0 80px 0 80px;
+  /* section first */
+
+  section.first {
+    background-image: url(https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1173,h_1029,fp_0.50_0.50,q_85,enc_avif,quality_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg);
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    div.overlay {
+      height: 100%;
+      background-color: var(--overlay-color);
+      padding-left: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        color: var(--primary-color);
+        font-size: 72px;
+        width: 690px;
+        margin-bottom: 70px;
+        font-weight: 600;
+      }
+      button {
+        width: 183px;
+        height: 40px;
+        background-color: var(--primary-color);
+        color: var(--basic-color);
+        border: none;
+        font-size: 14px;
+        font-weight: 200;
+        cursor: pointer;
+      }
+      button:hover {
+        color: var(--secondary-color);
+        transition-duration: 600ms;
+      }
+    }
+  }
+  /* section second */
 }
