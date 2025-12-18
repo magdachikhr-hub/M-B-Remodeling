@@ -21,6 +21,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--basic-color);
+}
 
 header {
   height: 141px;
@@ -128,11 +133,6 @@ main {
       div.wrapper {
         width: 460px;
 
-        h2 {
-          font-size: 40px;
-          font-weight: 600;
-          color: var(--basic-color);
-        }
         p {
           font-size: var(--primary-font);
           font-weight: 200;
@@ -157,4 +157,35 @@ main {
   }
 
   /* section third */
+
+  section.third {
+    h2 {
+      text-align: center;
+    }
+    div.parent {
+      display: flex;
+      margin-top: 140px;
+      gap: 30px;
+      justify-content: space-around;
+      div.child {
+        width: 232px;
+        text-align: center;
+        h3 {
+          color: var(--secondary-color);
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 31.02px;
+          height: 62px;
+        }
+        p {
+          font-size: var(--primary-font);
+          font-weight: 200;
+          color: var(--basic-color);
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+
+  /* section four */
 }
