@@ -186,6 +186,29 @@ main {
       }
     }
   }
+}
 
-  /* section four */
+/* section fourth */
+section.fourth {
+  background-color: var(--white-opacity);
+  height: 1255px;
+  div.rooms {
+    display: flex;
+
+    .common {
+      width: 695px;
+      height: 726px;
+      background-size: cover;
+    }
+
+    div.kitchens {
+      background-image: url(./images/kitchen.avif);
+    }
+    div.bathrooms {
+      background-image: url(./images/bathrooms.avif);
+    }
+    div.interiors {
+      background-image: url(./images/inter.avif);
+    }
+  }
 }
