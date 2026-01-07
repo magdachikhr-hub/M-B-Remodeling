@@ -269,3 +269,23 @@ section.fifth {
     }
   }
 }
+
+/* section six */
+
+section.six {
+  display: flex;
+  color: var(--primary-color);
+  background-color: var(--basic-color);
+  padding: 120px 0 50px 0;
+  justify-content: space-around;
+
+  h2 {
+    color: var(--primary-color);
+  }
+  div.discuss {
+    width: 350px;
+  }
+  form {
+    width: 434px;
+  }
+}
